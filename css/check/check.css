@@ -109,4 +109,17 @@
     width: 100%;
     object-fit: contain;
   }
+  .lock{
+    padding: 20px 25px 0 25px;
+  }
+  .input-info{
+    padding: 0 25px ;
+  }
+  .text{
+    padding: 0 25px ;
+  }
+  .info{
+    padding: 0 25px ;
+  }
+  .logo{padding: 0 25px ;}
 }/*# sourceMappingURL=check.css.map */
