@@ -127,13 +127,15 @@ margin: 15px  0;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 3px;
-  margin: 16px 0 0 0;
+  margin: 10px 0 0 0;
 
 }
 .card__date-dt{
   color: #fff;
+  font-size: 12px;
   letter-spacing: 2px;
   margin: 0;
+  padding:15px 0 0 0;
 }
 .card__banks{
   display: flex;
