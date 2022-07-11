@@ -207,26 +207,28 @@ margin: 15px  0;
 
 @media (max-width: 465px) {
   .card__back {
-    max-width: 100%;
-  }
-  .card__back-line {
     display: none;
   }
-  .card__back-cvv {
-    margin-top: 0;
-  }
   .card__front {
-    max-width: 100%;
+    max-width: 310px;
+    margin: 0 auto;
     box-sizing: border-box;
+    padding-bottom: 10px;
   }
   .card__wrapper {
     display: grid;
     align-items: center;
     grid-template-rows: repeat(2, auto);
   }
-}
-@media (max-width: 354px) {
   .card__banks img {
     box-sizing: border-box;
+    max-width: 60px;
+
   }
-}/*# sourceMappingURL=index.css.map */
+  .card__banks img:first-child {
+    box-sizing: border-box;
+    max-width: 130px;
+    
+  }
+}
+/*# sourceMappingURL=index.css.map */
