@@ -30,7 +30,6 @@
   border: solid;
   border-radius: 1px;
   border-color: #005dff;
-  opacity: 0.8;
 }
 
 .card-add {
@@ -69,7 +68,7 @@
 .card-bind__img {
   display: flex;
   justify-content: space-between;
-  padding: 5px 7px;
+  padding: 5px 7px 0 7px;
 }
 .card-bind__wrap {
   border-radius: 3px;
@@ -87,7 +86,13 @@
 }
 .card-bind__text {
   margin: 5px 0 0 7px;
-  padding-bottom: 4px;
+  padding-bottom: 7px;
+}
+.card-bind__text p {
+  padding-bottom: 3px;
+}
+.card-bind__text p:last-child {
+  padding-bottom: 0;
 }
 .card-bind p {
   color: white;
